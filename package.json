@@ -1,0 +1,32 @@
+{
+  "name": "swipe-right",
+  "version": "0.1.0",
+  "description": "A set of React components for building Tinder-like interfaces.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbprice/swipe-right.git"
+  },
+  "keywords": [
+    "Tinder",
+    "cards",
+    "gestures"
+  ],
+  "author": "W. Blaine Price",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbprice/swipe-right/issues"
+  },
+  "homepage": "https://github.com/wbprice/swipe-right#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-trails": "^2.0.6",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2"
+  }
+}
