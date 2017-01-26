@@ -12,4 +12,9 @@ gulp.task('compile', () => {
     .pipe(gulp.dest('dist'))
 })
 
+gulp.task('watch', () => {
+  gulp.watch(path.join('lib', '**', '*.js'), ['compile'])
+})
+
 gulp.task('build', ['compile'])
+gulp.task('start', ['watch'])
